@@ -6,7 +6,7 @@ import Glasses from "../../img/glasses.png";
 import Humble from "../../img/humble.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
-import vc from './KAIQUE SANTOS DE ANDRADE.pdf';
+import cv from './KAIQUE SANTOS DE ANDRADE.pdf';
 
 const Services = () => {
   // context
@@ -33,8 +33,8 @@ const Services = () => {
           <br />
           e que AMA tecnologia.
           </span>
-        <a href={vc} download>
-          <button className="button s-button">Download VC</button>
+        <a href={cv} download>
+          <button className="button s-button">Download CV</button>
         </a>
         <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div>
       </div>
