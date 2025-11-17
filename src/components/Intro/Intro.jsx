@@ -27,7 +27,7 @@ const Intro = () => {
       <div className="i-left">
         <div className="i-name">
           {/* yahan change hy darkmode ka */}
-          <span style={{ color: darkMode ? "white" : "" }}>Oi! Me chamo</span>
+          <span style={{ color: darkMode ? "white" : "" }}>Olá Me chamo</span>
           <span>Kaique Santos</span>
           <span>
             Desenvolvedor Full Stack
@@ -51,9 +51,7 @@ const Intro = () => {
       </div>
       {/* right image side */}
       <div className="i-right">
-        <img src={Vector1} alt="" />
-        <img src={Vector2} alt="" />
-        <img src={boy} alt="" />
+       
         {/* animation */}
         <motion.img
           initial={{ left: "-36%" }}
